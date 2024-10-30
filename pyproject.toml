@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "advanced-llm-agent"
+version = "0.1.0"
+description = "Advanced LLM agent server with memory and structured operations"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+langchain = "^0.1.0"
+openai = "^1.0.0"
+python-dotenv = "^1.0.0"
+pydantic = "^2.0.0"
+redis = "^5.0.1"
+langchain-community = "^0.0.16"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+pylint = "^3.0.0"
+black = "^24.1.0"
